@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@200;300&family=Hi+Melody&family=Jua&family=Nanum+Brush+Script&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo:wght@800&family=Nanum+Pen+Script&family=Single+Day&display=swap');
+#myimg img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.name{ /*이름부분 위치 조정하는 코드*/
+    font-size: 30px;
+    margin: 0 220px;
+    margin-top: 50px;
+}
+#myimg{ /*이미지 내용*/
+    margin: 0 200px;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+.testmenu{ /*contact/channel*/
+    display: flex; /*가로 정렬*/
+    width: 350px;
+    flex-direction: column;
+    position: absolute; /*div로 묶은 다음 박스 위치 조정*/
+    top: 150px;
+    left: 470px;
+}
+.myinfo{
+    flex-direction: column;
+    line-height: 20px; 
+}
+.myinfo1{
+    font-size: 20px;
+}
+h3{
+    color: orange;
+    font-style: bold;
+}
+.line{
+    border: 0.5px solid rgba(128, 128, 128, 0.282);
+    width: 900px;
+    margin: 0px 150px;
+}
+span{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.myInt{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    margin: 2.5% 13%;
+    font-size: 30px;
+}
+.line2{
+    border: 1.5px solid rgba(0, 0, 0, 0.654);
+    width: 900px;
+    margin: 0px 150px;
+}
+.Intbox{
+    position: absolute;
+    top: 93%;
+    left: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line3{
+    border: 0.5px solid rgba(128, 128, 128, 0.282);
+    width: 900px;
+    margin: 0px 1px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigator{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menubar{
+    margin-left: 50px;
+}
+.iconbar{
+    margin-top: 5px;
+    margin-left: -20px;
+    /*깃털 아이콘 위치 조정*/
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    margin-right: -100px;
+    margin-top: 5px;
+}
+.icons2{
+    margin-left: -20px;
+    width: 20px;
+    height: 20px;
+}
+ul{
+    list-style: none; /*ul에 있는 점들을 삭제*/
+    display: flex; /*가로 정렬*/
+}
+li{
+    padding:  0px 50px;
+    /*li사이의 간격 조정*/
+}
+a{
+    text-decoration: none; /*밑 줄 없애기*/
+    color: black;
+}
