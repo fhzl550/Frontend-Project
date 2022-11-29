@@ -12,6 +12,13 @@
 .menubar{
     margin-left: 50px;
 }
+.menu1 a{
+    color: black;
+}
+.menu1 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
 .iconbar{
     margin-top: 5px;
     margin-left: -20px;

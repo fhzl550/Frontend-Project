@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5501/home.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./Project_files/all.min.css">
+    <link rel="stylesheet" href="./Project_files/homemenu.css">
+    <link rel="stylesheet" href="./Project_files/resume.html">
+<script src="chrome-extension://ecmeogcbcoalojmkfkmancobmiahaigg/content_script/content_script.js"></script></head>
+
+<body>
+<header>
+    <nav class="navigator">
+        <div class="iconbar">
+            <h1><a href="./Project_files/resume.html"><i class="fa-solid fa-feather"></i></a>&nbsp;</h1>
+        </div>
+        <div class="menubar">
+            <ul>
+                <li class="menu1"><a href="http://127.0.0.1:5501/home.html#">Home</a></li>
+                <li class="menu1"><a href="./Project_files/resume.html">Resume</a></li>
+                <li class="menu1"><a href="http://127.0.0.1:5501/home.html#">Portfolio</a></li>
+                <li class="menu1"><a href="https://github.com/fhzl550/resume-project" target="_blank">Github</a></li>
+                <li class="menu1"><a href="https://velog.io/@fhrzl55040" target="_blank">Velog</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+           <a href="http://127.0.0.1:5501/home.html#"><i class="fa-solid fa-magnifying-glass"></i></a> <!--돋보기 모양-->
+        </div>
+        <div class="icon2">
+                <a href="http://127.0.0.1:5501/home.html#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+    <hr>
+</header>
+
+<div class="Myname">
+    <h1>윤우상</h1><br>
+    <h1>Web Frontend Developer</h1>
+</div>
+<img src="./Project_files/해변가사진.jpeg" alt="">
+
+<div class="box1">
+    <div class="box2">
+    <i class="fa-regular fa-hand"></i>
+    <p>안녕하세요. 웹 개발자 윤우상 입니다.<br>
+    <br>항상 좀 더 실력있는 개발자가 되기 위해 다양한 프로젝트를 만들어 가고 있습니다.</p>
+    </div>
+</div>
+
+<div class="box3">
+    <div class="Gallery"><i class="fa-sharp fa-solid fa-clone"></i>&nbsp;&nbsp;<h5>Gallery view</h5></div>
+</div>
+<hr class="line1">
+<br>
+<div class="readme">
+<h2>README</h2>
+</div>
+
+<div class="Reimg">
+    <img src="./Project_files/리썸이미지.gif">
+</div>
+<div class="Poimg">
+    <img src="./Project_files/포트폴리오이미지.gif">
+</div>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
