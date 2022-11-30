@@ -10,7 +10,9 @@
     align-items: center;
 }
 .menubar{
-    margin-left: 50px;
+    position: absolute;
+    left: 25%;
+
 }
 .menu1 a{
     color: black;
@@ -20,20 +22,19 @@
     text-decoration: underline;
 }
 .iconbar{
-    margin-top: 5px;
-    margin-left: -20px;
+    position: absolute;
+    left: 1%;
     /*깃털 아이콘 위치 조정*/
 }
-.icons{
+.icons{ /*돋보기 모양 아이콘*/
     width: 20px;
     height: 20px;
-    margin-right: -100px;
-    margin-top: 5px;
+    position: absolute;
+    left: 1400px;
 }
-.icons2{
-    margin-left: -20px;
-    width: 20px;
-    height: 20px;
+.icons2{ /*햄버거 메뉴바*/
+    position: absolute;
+    left: 1420px;
 }
 ul{
     list-style: none; /*ul에 있는 점들을 삭제*/

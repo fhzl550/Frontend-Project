@@ -10,7 +10,9 @@
     align-items: center;
 }
 .menubar{
-    margin-left: 50px;
+    position: absolute;
+    left: 25%;
+
 }
 .menu1 a{
     color: black;
@@ -20,20 +22,19 @@
     text-decoration: underline;
 }
 .iconbar{
-    margin-top: 5px;
-    margin-left: -20px;
+    position: absolute;
+    left: 1%;
     /*깃털 아이콘 위치 조정*/
 }
-.icons{
+.icons{ /*돋보기 모양 아이콘*/
     width: 20px;
     height: 20px;
-    margin-right: -100px;
-    margin-top: 5px;
+    position: absolute;
+    left: 1400px;
 }
-.icons2{
-    margin-left: -20px;
-    width: 20px;
-    height: 20px;
+.icons2{ /*햄버거 메뉴바*/
+    position: absolute;
+    left: 1420px;
 }
 ul{
     list-style: none; /*ul에 있는 점들을 삭제*/
@@ -47,26 +48,26 @@ a{
     text-decoration: none; /*밑 줄 없애기*/
     color: black;
 }
-img{
+img{ /*이미지*/
     width: 800px;
     height: 300px;
     margin-top: 20px;
-    margin-left: 190px;
+    margin-left: 350px;
 }
 .Myname{
-    margin-left: 190px;
+    margin-left: 350px;
     margin-top: 60px;
 }
 .box1{
     border: 1px solid rgba(168, 167, 167, 0.739);
     width: 800px;
     height: 100px;
-    margin-left: 190px;
+    margin-left: 350px;
     margin-top: 10px;
 }
 .box2{
     margin-top: 25px;
-    margin-left: 20px;
+    margin-left: 30px;
     display: flex;
     width: 700px;
 }
@@ -77,17 +78,17 @@ img{
 .Gallery{
     font-size: 20px;
     width: 300px;
-    margin-left: 190px;
+    margin-left: 350px;
     display: flex;
 }
 .line1{
     border: 0.5px solid rgba(128, 128, 128, 0.282);
     width: 810px;
     margin: 0px 1px;
-    margin-left: 185px;
+    margin-left: 350px;
 }
 .readme{
-    margin-left: 180px;
+    margin-left: 350px;
     width: 250px;
 }
 .Reimg img{
@@ -111,7 +112,7 @@ img{
     line-height: 30px;
     position: absolute;
     top: 1000px;
-    left: 190px;
+    left: 350px;
     background-color: white;
     border-radius: 30px;
 }
@@ -129,7 +130,7 @@ img{
     line-height: 30px;
     position: absolute;
     top: 1000px;
-    left: 615px;
+    left: 775px;
     background-color: white;
     border-radius: 30px;
 }
@@ -145,4 +146,30 @@ img{
 }
 .box5{
     margin-top: 20px;
+}
+.resumetxt{
+    width: 600px;
+    margin-top: 400px;
+    margin-left: 350px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yellowtxt{
+    color: rgb(235, 168, 22);
+}
+.resumetxt1{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 350px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yellowtxt1{
+    color: rgb(185, 47, 185);
+}
+.line2{
+    border: 0.5px solid rgba(128, 128, 128, 0.282);
+    width: 810px;
+    margin: 40px 1px;
+    margin-left: 350px;
 }
