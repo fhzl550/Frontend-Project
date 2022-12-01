@@ -9,9 +9,9 @@
     justify-content: space-around;
     align-items: center;
 }
-.menubar{
+.menubar{ /*메뉴  바*/
     position: absolute;
-    left: 25%;
+    left: 23%;
 
 }
 .menu1 a{
@@ -30,18 +30,19 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    left: 1400px;
+    left: 96%;
+    top: 1.7%;
 }
 .icons2{ /*햄버거 메뉴바*/
     position: absolute;
-    left: 1420px;
+    left: 98%;
 }
 ul{
     list-style: none; /*ul에 있는 점들을 삭제*/
     display: flex; /*가로 정렬*/
 }
 li{
-    padding:  0px 50px;
+    padding:  0px 22%;
     /*li사이의 간격 조정*/
 }
 a{
@@ -49,72 +50,73 @@ a{
     color: black;
 }
 img{ /*이미지*/
-    width: 800px;
+    width: 65%;
     height: 300px;
-    margin-top: 20px;
-    margin-left: 350px;
+    margin-top: 3%;
+    margin-left: 17%;
 }
 .Myname{
-    margin-left: 350px;
-    margin-top: 60px;
+    margin-left: 17%;
+    margin-top: 5%;
 }
 .box1{
     border: 1px solid rgba(168, 167, 167, 0.739);
-    width: 800px;
+    width: 65%;
     height: 100px;
-    margin-left: 350px;
-    margin-top: 10px;
+    margin-left: 17%;
+    margin-top: 1%;
 }
 .box2{
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-top: 3%;
+    margin-left: 5%;
     display: flex;
-    width: 700px;
+    width: 70%;
 }
 .box3{ 
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 4%;
+    margin-bottom: 20px;
 }
 .Gallery{
     font-size: 20px;
-    width: 300px;
-    margin-left: 350px;
+    width: 70%;
+    margin-left: 17%;
     display: flex;
 }
 .line1{
     border: 0.5px solid rgba(128, 128, 128, 0.282);
-    width: 810px;
+    width: 65%;
     margin: 0px 1px;
-    margin-left: 350px;
+    margin-left: 17%;
 }
 .readme{
-    margin-left: 350px;
+    margin-left: 17%;
+    margin-top: 3%;
     width: 250px;
 }
 .Reimg img{
-    width: 380px;
+    width: 32%;
     height: 200px;
     position: absolute;
-    left: -5px;
-    border-radius: 30px;
+    left: -1%;
+    border-radius: 15%;
 }
 .Poimg img{
-    width: 380px;
+    width: 32%;
     height: 200px;
     position: absolute;
-    left: 420px;
-    border-radius: 30px;  
+    left: 33%;
+    border-radius: 15%;  
 }
 .Reimg1{
-    width: 370px;
+    width: 32%;
     height: 100px;
     text-align: center;
     line-height: 30px;
     position: absolute;
-    top: 1000px;
-    left: 350px;
+    top: 170%;
+    left: 16%;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 15%;
 }
 .Reimg1:hover{
     background-color: #03a679;
@@ -124,15 +126,15 @@ img{ /*이미지*/
     background-color: #03a679;
 }
 .Poimg1{
-    width: 370px;
+    width: 32%;
     height: 100px;
     text-align: center;
     line-height: 30px;
     position: absolute;
-    top: 1000px;
-    left: 775px;
+    top: 170%;
+    left: 50%;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 15%;
 }
 .Poimg1:hover{
     background-color: #04275f;
@@ -142,15 +144,15 @@ img{ /*이미지*/
     background-color: #04275f;
 }
 .box4{
-    margin-top: 20px;
+    margin-top: 5%;
 }
 .box5{
-    margin-top: 20px;
+    margin-top: 5%;
 }
 .resumetxt{
-    width: 600px;
-    margin-top: 400px;
-    margin-left: 350px;
+    width: 60%;
+    margin-top: 35%;
+    margin-left: 18%;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -158,9 +160,9 @@ img{ /*이미지*/
     color: rgb(235, 168, 22);
 }
 .resumetxt1{
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 350px;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 18%;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -169,7 +171,7 @@ img{ /*이미지*/
 }
 .line2{
     border: 0.5px solid rgba(128, 128, 128, 0.282);
-    width: 810px;
+    width: 65%;
     margin: 40px 1px;
-    margin-left: 350px;
+    margin-left: 17%;
 }

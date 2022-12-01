@@ -9,9 +9,9 @@
     justify-content: space-around;
     align-items: center;
 }
-.menubar{
+.menubar{ /*메뉴  바*/
     position: absolute;
-    left: 25%;
+    left: 23%;
 
 }
 .menu1 a{
@@ -30,18 +30,19 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    left: 1400px;
+    left: 96%;
+    top: 1.7%;
 }
 .icons2{ /*햄버거 메뉴바*/
     position: absolute;
-    left: 1420px;
+    left: 98%;
 }
 ul{
     list-style: none; /*ul에 있는 점들을 삭제*/
     display: flex; /*가로 정렬*/
 }
 li{
-    padding:  0px 50px;
+    padding:  0px 22%;
     /*li사이의 간격 조정*/
 }
 a{
